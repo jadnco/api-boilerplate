@@ -1,0 +1,37 @@
+{
+  "name": "api-boilerplate",
+  "version": "1.0.0",
+  "description": "Starting point for creating RESTful APIs with Node, Express and MongoDB.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "./node_modules/.bin/nodemon lib/index.js --exec ./node_modules/.bin/babel-node",
+    "build": "./node_modules/.bin/babel lib -d build",
+    "serve": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadnco/api-boilerplate.git"
+  },
+  "author": "Jaden Dessureault <hello@jaden.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jadnco/api-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jadnco/api-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-transform-flow-strip-types": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "chai": "^3.5.0",
+    "chalk": "^1.1.1",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.8.1"
+  }
+}
