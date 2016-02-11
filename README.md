@@ -25,12 +25,12 @@ The API listens onto a *dynamic* IP address for development. This address will b
 
 ## Development
 
-Flow is being used to allow for statically typed JavaScript, make sure it's installed globally.
+Flow is being used to allow for statically typed JavaScript.
 
 After creating new methods, run the following command and deal with any output properly:
 
 ```sh
-flow
+npm run check
 ```
 
 Mocha is being used as the testing framework and Chai as the assertion library.
