@@ -8,6 +8,7 @@
 | `email` | `String` | | Email address used to sign up.
 | `description` | `String` | | Description of user, serves as the bio. 
 | `created` | `Date` | `Date.now` | When the record was created.
+| `modified` | `Date` | | When the record was last updated.
 
 ## Retrieving a single User
 
