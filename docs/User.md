@@ -12,7 +12,7 @@
 ## Retrieving a single User
 
 ```
-GET users/:id[:handle]
+GET users/:id
 ```
 
 ### Response
